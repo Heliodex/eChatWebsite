@@ -15,16 +15,27 @@ body
 	margin: 0
 
 main
-	padding: 2rem 1rem
+	padding: 5rem 3rem
 
 header
 	margin: 0
 	top: 0
 
-	height: 5vh
+	height: 8vh
 	position: fixed
 	width: 100%
-	display: flex
+	display: grid
+	grid-template-columns: 1fr 1fr
+	column-gap: 0.7rem
+
 	align-items: center
 	justify-content: center
 	background-color: #31a47e
+.left
+	padding: 0 3rem
+.right
+	text-align: right
+	padding: 0 3rem
+
+.headerlogo
+	height: 5vh
