@@ -2,7 +2,9 @@
 	import "./global.sass"
 </script>
 
-<header>yo</header>
+<header>
+	<h1>eChat</h1>
+</header>
 
 <main>
 	<slot />
