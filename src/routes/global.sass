@@ -8,34 +8,59 @@ $main-dark: #31857e
 
 :root
 	font-family: lexendDeca, "Segoe UI", sans-serif
-	color: white
-	background-color: black
+	color: black
+	background-color: white
 
 body
 	margin: 0
 
 main
-	padding: 5rem 3rem
+	padding: 5rem 8rem
 
-header
-	margin: 0
-	top: 0
-
-	height: 8vh
-	position: fixed
+.grid
 	width: 100%
 	display: grid
 	grid-template-columns: 1fr 1fr
 	column-gap: 0.7rem
 
+.eccb
+	position: absolute
+	object-fit: contain
+	height: 80vh
+	margin-top: 3%
+	left: -30%
+	max-width: 80vw
+
+header
+	font-size: 1.2rem
+	color: white
+	margin: 0
+	top: 0
+
+	height: 8vh
+	position: fixed
+
 	align-items: center
 	justify-content: center
 	background-color: #31a47e
+
+	a
+		margin: 0 1rem
+		color: white
+		text-decoration: none
+		&:hover
+			transition: transform 0.2s
+			transform: scale(1.1)
+			filter: brightness(85%)
+
 .left
-	padding: 0 3rem
+	padding: 0 8rem
 .right
 	text-align: right
-	padding: 0 3rem
+	padding: 0 8rem
 
 .headerlogo
 	height: 5vh
+.mainLogo
+	width: 30vw
+	margin-top: 30vh
