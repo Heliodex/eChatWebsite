@@ -2,5 +2,12 @@
 	<title>eChat</title>
 </svelte:head>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="grid">
+	<div>
+		<img class="eccb" src="eccb.png" alt="eChat on a Chromebook 11 3189" />
+	</div>
+	<div>
+		<img class="mainLogo" src="green.svg" alt="Green eChat logo" />
+		<p>yo whats up</p>
+	</div>
+</div>
