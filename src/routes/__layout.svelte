@@ -2,12 +2,13 @@
 	import "./global.sass"
 </script>
 
-<header>
+<header class="grid">
 	<div class="left">
-		<img class="headerlogo" src="white.svg" alt="eChat logo"/>
+		<img class="headerlogo" src="white.svg" alt="White eChat logo"/>
 	</div>
 	<div class="right">
-		test
+		<a href="/">Home</a>
+		<a href="/about">About</a>
 	</div>
 </header>
 
