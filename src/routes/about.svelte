@@ -1,5 +1,7 @@
 <svelte:head>
-	<title>About eChat</title>
+	<title>eChat - About</title>
 </svelte:head>
 
-<p>yo whats up</p>
+<p>
+	A simple chat extension.<br />
+</p>
