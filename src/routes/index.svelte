@@ -4,7 +4,7 @@
 
 <div class="grid">
 	<div>
-		<img class="eccb" src="eccb.png" alt="eChat on a Chromebook 11 3189" />
+		<img class="eccb" src="eccb.webp" alt="eChat on a Chromebook 11 3189" />
 	</div>
 	<div class="logoandtext">
 		<img class="mainLogo" src="green.svg" alt="Green eChat logo" />
