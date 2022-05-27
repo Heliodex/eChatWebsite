@@ -32,6 +32,6 @@
 	<br />
 	Please check this privacy policy regularly. We may update it at any time without notice. You must agree to any changes if you continue to use eChat after the privacy policy has been updated.<br />
 	<br />
-	If you have any questions, suggestions or you want more information, please contact our support team at <a href="mailto:help.echat@gmail.com">help.echat@gmail.com</a>.<br />
+	If you have any questions, suggestions or you want more information, please contact our support team at <a class="maillink" href="mailto:help.echat@gmail.com">help.echat@gmail.com</a>.<br />
 	<br />
 </p>
