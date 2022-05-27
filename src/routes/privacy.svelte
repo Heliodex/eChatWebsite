@@ -3,6 +3,7 @@
 </svelte:head>
 
 <p>
+	hello
 	<strong>Information collection and use</strong><br />
 	For a better experience while using eChat, we use cookies to store your settings choices. These include your dark mode, message history length and theme colour choices.<br />
 	<br />
