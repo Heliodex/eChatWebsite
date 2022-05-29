@@ -15,8 +15,12 @@
 	export let error: any
 </script>
 
-<br />
-<h1>
-	Error {status}
-</h1>
-{error["message"]}
+<div class="thinpage">
+	<div class="thintext">
+		<br />
+		<h1>
+			Error {status}
+		</h1>
+		{error["message"]}
+	</div>
+</div>
