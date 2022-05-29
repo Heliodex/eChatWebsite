@@ -13,12 +13,13 @@ $main-dark: #31857e
 
 html
 	scroll-behavior: smooth
+	overflow-y: overlay // Fix scrollbar from changing the width of the screen
 
 body
 	margin: 0
 
 main
-	padding: 5rem 8rem
+	padding: 5rem 0
 
 p
 	line-height: 1.5rem
@@ -33,8 +34,8 @@ p
 	object-fit: contain
 	height: 80vh
 	margin-top: 3%
-	left: -30%
-	max-width: 80vw
+	right: 50%
+	max-width: 80vh
 
 .grid
 	width: 100%
@@ -42,45 +43,52 @@ p
 	grid-template-columns: 1fr 1fr
 	column-gap: 0.7rem
 
+.homepageInfo
+	margin-left: 2rem
+	display: flex
+	flex-direction: column
+
 header
 	width: 100%
 	font-size: 1.2rem
 	top: 0
-	align-items: center
-	display: flex
-	justify-content: space-between
-	align-items: center
-	align-content: center
-
 	height: 65px
 	position: fixed
+	align-content: center
+	justify-content: center
+	display: flex
 
 	background-color: #31a47e
 
-	.right
-		margin-right: 7rem
-		padding: 0
+	.headerContainer
+		width: 100%
+		max-width: 1200px
+
 		display: flex
-		float: left
-		justify-content: flex-end
-		right: 1rem
+		justify-content: space-between
+		align-items: center
+		align-content: center
 
-	.headerlogo
-		margin-left: 10vw
-		margin-top: 7.5px
-		img
-			height: 33px
+		.right
+			margin-right: 7rem
+			padding: 0
+			display: flex
+			float: left
+			justify-content: flex-end
+			right: 1rem
 
-	a
-		min-width: 10%
-		margin: 0 1.5rem
-		color: white
-		text-decoration: none
-		&:hover
-			filter: opacity(80%)
+		.headerlogo
+			margin-left: min(8vw, 7rem)
+			img
+				height: 33px
 
-.logoandtext
-	margin-top: -1vh
+		a
+			min-width: 10%
+			margin: 0 1.5rem
+			color: white
+			text-decoration: none
+			&:hover
+				filter: opacity(80%)
 
 .left
 	padding: 0 7rem
@@ -92,11 +100,12 @@ header
 	width: 30vw
 	max-width: 20rem
 	margin-top: 30vh
-	
+
 .cwsLogo
+	width: 100%
+.cwsButton
 	width: 25vw
 	max-width: 15rem
-.cwsButton
 	border: 0
 	background-color: $main
 	border-radius: 1rem
@@ -104,23 +113,48 @@ header
 	&:hover
 		background-color: $main-dark
 
+.eccb, .headerlogo
+	visibility: hidden
 
-@media screen and (max-width: 650px)
-		
-	.eccb, .headerlogo
-		visibility: hidden
+.thinpage
+	display: flex
+	justify-content: center
+
+.thintext
+	max-width: 700px
+	padding: 0 6%
+
+// These are all standards for screen width values
+
+@media screen and (max-width: 599px)
 
 	.grid, header
 		grid-template-columns: 0fr 1fr
 		justify-content: center
 
-	.right a
+	.right 
+		width: 100%
+		a
 			min-width: 2rem
 
 	.mainLogo
-		width: 50vw
+		width: 60vw
 		max-width: 28rem
 
-	.cwsLogo
-		width: 35vw
+	.cwsButton
+		width: 45vw
 		max-width: 20rem
+
+	.homepageInfo
+		margin: 0
+	.homepageInfoContainer
+		display: flex
+		justify-content: center
+
+@media screen and (min-width: 600px)
+
+	.eccb, .headerlogo
+		visibility: visible
+
+	.headerlogo
+		margin-left: 3rem
