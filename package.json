@@ -13,6 +13,7 @@
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.45",
     "svelte": "^3.44.0",
     "svelte-check": "^2.2.6",
     "svelte-preprocess": "^4.10.1",
@@ -21,6 +22,7 @@
   },
   "type": "module",
   "dependencies": {
-    "sass": "^1.52.1"
+    "sass": "^1.52.1",
+    "vite": "^2.9.9"
   }
 }
