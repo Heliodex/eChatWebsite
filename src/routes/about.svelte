@@ -8,8 +8,15 @@ It will stop being centered when we add more text.
 -->
 
 <div class="thinpage">
-	<p class="thintext">
+	<div class="thintext">
+		<h1>About</h1>
 		<br />
-		A simple chat extension.<br />
-	</p>
+		<p>A simple chat extension.</p><br />
+	</div>
 </div>
+
+<style lang="sass">
+	h1
+		text-align: center
+		margin: 2rem 0 0 0
+</style>
