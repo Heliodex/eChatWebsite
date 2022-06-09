@@ -21,12 +21,17 @@ body
 main
 	padding: 5rem 0
 
+::selection
+	background: $main
+
 p
 	line-height: 1.5rem
 
-.maillink
+a
 	color: $main
+	transition: color 0.2s
 	&:hover
+		transition: color 0.2s
 		color: $main-dark
 
 .eccb
@@ -87,7 +92,9 @@ header
 			margin: 0 1.5rem
 			color: white
 			text-decoration: none
+			transition: filter 0.2s
 			&:hover
+				transition: filter 0.2s
 				filter: opacity(80%)
 
 .left
@@ -104,14 +111,17 @@ header
 .cwsLogo
 	width: 100%
 .cwsButton
+	cursor: pointer
 	width: 25vw
 	max-width: 15rem
 	border: 0
-	background-color: $main
 	border-radius: 1rem
 	margin-top: 1vh
+	background: $main
+	transition: background 0.2s
 	&:hover
-		background-color: $main-dark
+		transition: background 0.2s
+		background: $main-dark
 
 .eccb, .headerlogo
 	visibility: hidden
@@ -124,15 +134,13 @@ header
 	max-width: 700px
 	padding: 0 6%
 
-// These are all standards for screen width values
-
 @media screen and (max-width: 599px)
 
 	.grid, header
 		grid-template-columns: 0fr 1fr
 		justify-content: center
 
-	.right 
+	.right
 		width: 100%
 		a
 			min-width: 2rem
