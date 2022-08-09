@@ -2,16 +2,12 @@
 	<title>eChat - About</title>
 </svelte:head>
 
-<!-- 
-It's centered for now for some reason.
-It will stop being centered when we add more text. 
--->
-
 <div class="thinpage">
 	<div class="thintext">
 		<h1>About</h1>
 		<br />
-		<p>A simple chat extension.</p><br />
+		<p>From the makers of DocSocial, eChat is a simple chat app in an extension popup. This allows for it to be untrackable by other browser extensions, and for it to not appear in your history.</p>
+		
 	</div>
 </div>
 
