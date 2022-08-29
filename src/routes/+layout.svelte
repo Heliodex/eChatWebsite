@@ -32,6 +32,7 @@
 		align-content: center
 		justify-content: center
 		display: flex
+		z-index: 1
 
 		background-color: #31a47e
 
@@ -86,4 +87,5 @@
 
 		.headerlogo
 			visibility: visible
+			margin-left: 3rem
 </style>
