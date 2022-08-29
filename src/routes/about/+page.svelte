@@ -6,7 +6,7 @@
 	<div class="thintext">
 		<h1>About</h1>
 		<br />
-		<p>From the makers of DocSocial, eChat is a simple chat app in an extension popup. This allows for it to be untrackable by other browser extensions, and for it to not appear in your history.</p>
+		<p>From the makers of DocSocial, eChat is a simple chat app in a popup. This allows for it to be untrackable by browser extensions, and for it to not appear in your history.</p>
 	</div>
 </div>
 
