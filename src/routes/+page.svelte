@@ -64,7 +64,6 @@
 
 	h4
 		font-size: 1.25rem
-		margin: 0 0 0 2rem
 
 	.eccb
 		position: absolute
