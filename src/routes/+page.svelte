@@ -25,8 +25,8 @@
 		<p>Press Ctrl + Shift + B in your browser to make sure that the Bookmarks Bar is visible.</p>
 		<br />
 		<h4>Step 2</h4>
-		<br />
 		<p>Drag this into any free space in your Bookmarks Bar: <a href="javascript:if(document.getElementById('eChatWindow')){'{'}const e=document.getElementById('eChatWindow');Object.assign(e.style,{'{'}display:'block'==getComputedStyle(e).getPropertyValue('display')?'none':'block'})}else{'{'}let e=document.createElement('script');e.src='https://cdn.jsdelivr.net/gh/heliodex/echatpopup/m.js',document.body.appendChild(e)}" id="bookmarklet">eChat</a></p>
+		<br />
 		<h4>Step 3</h4>
 		<p>
 			Click on the newly created bookmark. An eChat popup window should appear over the current website!<br />
