@@ -18,7 +18,14 @@
 </div>
 <div class="thinpage">
 	<div class="thintext">
+		<h1>Notice</h1>
+		<p>eChat has been disabled on school networks both by blocking bookmarks from executing javascript: urls. The bookmark will no longer open on these chromebooks.</p>
+		<p>The original eChat server has also been switched off, so data can no longer be sent or received by the client.</p>
+		<p>However, if you wish to run your own eChat instance, the code is now open-source and public domain. See the source code (and some instructions) at <a href="https://github.com/Heliodex/eChat" rel="noopener noreferrer">Github.com/Heliodex/eChat</a>.</p>
+		<p>We thank you for all of your support during the short few months that eChat was usable.</p>
+
 		<h1>How to install</h1>
+
 		<p>eChat was originally planned to be a browser extension, but these are often blocked on enterprise or school devices. Instead, we went with a different approach that allows eChat to be displayed over the top of almost any webpage.</p>
 		<br />
 		<h4>Step 1</h4>
