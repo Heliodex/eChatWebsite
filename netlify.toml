@@ -1,3 +1,7 @@
  [build.environment]
-	NODE_VERSION = "18.8.0"
-	NPM_VERSION = "8.18.0"
+	NODE_VERSION = "19.4.0"
+	NPM_VERSION = "9.3.0"
+
+[build]
+	command = "npm run build"
+	publish = ".svelte-kit/build"
