@@ -10,7 +10,7 @@
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
   },
   "devDependencies": {
-    "@sveltejs/kit": "^1.1.0",
+    "@sveltejs/kit": "^1.15.2",
     "@sveltejs/vite-plugin-svelte": "^1.4.0",
     "svelte": "^3.55.1",
     "svelte-check": "^2.10.3",
