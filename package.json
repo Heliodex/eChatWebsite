@@ -22,6 +22,6 @@
   "dependencies": {
     "@sveltejs/adapter-netlify": "^1.0.0-next.84",
     "sass": "^1.57.1",
-    "vite": "^4.5.2"
+    "vite": "^4.5.3"
   }
 }
