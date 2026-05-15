@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@sveltejs/adapter-netlify':
-        specifier: 1.0.0-next.84
+        specifier: ^1.0.0-next.84
         version: 1.0.0-next.84
       sass:
         specifier: ^1.57.1
